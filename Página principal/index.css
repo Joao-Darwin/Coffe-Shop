@@ -1,0 +1,675 @@
+body {
+    background-color: rgb(53, 41, 32)
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(247, 247, 247);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 69, 53);
+    border-radius: 20px;
+    border: 3px solid rgb(90, 69, 53)
+}
+
+#barrainicial {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+    border: 0px solid black;
+    padding: none;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    box-shadow: 1px -5px 25px black;
+}
+
+#titulo {
+    width: 160px;
+    height: 29px;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+    top: 1px;
+    transition: all 0.5s;
+}
+
+#titulo:hover {
+    font-size: 27px
+}
+
+#linkcontact {
+    width: 100px;
+    height: 29px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: rgba(63, 63, 63, 0.904);
+    position: relative;
+    left: 1200px;
+    top: -40px;
+    transition: all 0.5s;
+}
+
+#linkcontact:hover {
+    font-size: 18px;
+    color: black;
+}
+
+#linkabout {
+    width: 100px;
+    height: 29px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: rgba(63, 63, 63, 0.904);
+    position: relative;
+    left: 1100px;
+    top: -75px;
+    transition: all 0.5s;
+}
+
+#linkabout:hover {
+    font-size: 18px;
+    color: black;
+}
+
+#linkmenu {
+    width: 100px;
+    height: 29px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: rgba(63, 63, 63, 0.904);
+    position: relative;
+    left: 1000px;
+    top: -110px;
+    transition: all 0.5s;
+}
+
+#linkmenu:hover {
+    font-size: 18px;
+    color: black;
+}
+
+#linkhome {
+    width: 100px;
+    height: 29px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: rgba(63, 63, 63, 0.904);
+    position: relative;
+    left: 900px;
+    top: -145px;
+    transition: all 0.5s;
+}
+
+#linkhome:hover {
+    font-size: 18px;
+    color: black;
+}
+
+#linkshop {
+    width: 100px;
+    height: 29px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: rgba(63, 63, 63, 0.904);
+    position: relative;
+    left: 800px;
+    top: -180px;
+    transition: all 0.5s;
+}
+
+#linkshop:hover {
+    font-size: 18px;
+    color: rgb(53, 41, 32);
+}
+
+#linklogin {
+    width: 100px;
+    height: 29px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    color: rgba(63, 63, 63, 0.904);
+    position: relative;
+    left: 700px;
+    top: -215px;
+    transition: all 0.5s;
+}
+
+#linklogin:hover {
+    font-size: 18px;
+    color: rgb(53, 41, 32);
+}
+
+#imgcafe {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0px;
+    top: -90px;
+}
+
+#titulo2 {
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.11);
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    z-index: 1;
+    position: absolute;
+    top: 300px;
+    left: 480px;
+    transition: all 1s;
+}
+
+#titulo2:hover {
+    font-size: 52px;
+}
+
+#frase1 {
+    width: auto;
+    height: auto;
+    color: white;
+    background-color: rgba(24, 24, 24, 0.356);
+    font-weight: 100;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    z-index: 1;
+    position: absolute;
+    top: 370px;
+    left: 520px;
+    transition: all 1s;
+}
+
+#frase1:hover {
+    font-size: 27px;
+}
+
+#containerabout {
+    background-color: rgb(114, 87, 68);
+    width: 1220px;
+    height: auto;
+    position: absolute;
+    left: 50px;
+    top: 1450px;
+    border-bottom: 0px solid black;
+    padding: none;
+    margin: auto;
+}
+
+#tituloabout {
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+#paragrafoabout {
+    width: 1110px;
+    height: auto;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Anton', sans-serif;
+    position: relative;
+    left: 50px;
+    top: 0px;
+}
+
+#botaovoltartopo {
+    background-color: rgba(247, 247, 247, 0.39);
+    width: 55px;
+    height: 55px;
+    border-radius: 30px;
+    border: 0px solid white;
+    position: fixed;
+    z-index: 2;
+    top: 590px;
+    left: 1220px;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.5s;
+}
+
+#botaovoltartopo:hover {
+    width: 57px;
+    height: 57px;
+    background-color: rgba(247, 247, 247, 0.781)
+}
+
+#containercontact {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 300px;
+    border-bottom: 1px solid black;
+    position: absolute;
+    left: 0px;
+    top: 2100px;
+}
+
+#titulocontact {
+    width: 1000px;
+    border-bottom: 2px solid rgb(53, 41, 32);
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 180px;
+    text-align: center;
+}
+
+#linkyoutube {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 580px;
+    transition: all 0.5s;
+}
+
+#linkyoutube:hover {
+    padding: 3px 3px;
+    width: 53px;
+    height: 53px;
+    background-color: rgba(97, 97, 97, 0.123)
+}
+
+#linkinstagram {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 490px;
+    transition: all 0.5s
+}
+
+#linkinstagram:hover {
+    padding: 3px 3px;
+    width: 53px;
+    height: 53px;
+    background-color: rgba(97, 97, 97, 0.123)
+}
+
+#linklinkedin {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    transition: all 0.5s;
+}
+
+#linklinkedin:hover {
+    padding: 3px 3px;
+    width: 53px;
+    height: 53px;
+    background-color: rgba(97, 97, 97, 0.123)
+}
+
+#linkfacebook {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 310px;
+    transition: all 0.5s
+}
+
+#linkfacebook:hover {
+    padding: 3px 3px;
+    width: 53px;
+    height: 53px;
+    background-color: rgba(97, 97, 97, 0.123)
+}
+
+#linkspotify {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 80px;
+    left: 220px;
+    transition: all 0.5s
+}
+
+#linkspotify:hover {
+    padding: 3px;
+    width: 53px;
+    height: 53px;
+    background-color: rgba(97, 97, 97, 0.123)
+}
+
+#linkcookies {
+    width: 160px;
+    height: 17px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(63, 63, 63, 0.904);
+    position: absolute;
+    left: 950px;
+    top: 250px;
+    transition: all 0.5s;
+}
+
+#linkcookies:hover {
+    color: rgb(0, 0, 0);
+}
+
+#linktermouso {
+    width: 160px;
+    height: 17px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(63, 63, 63, 0.904);
+    position: absolute;
+    left: 710px;
+    top: 250px;
+    transition: all 0.5s;
+}
+
+#linktermouso:hover {
+    color: rgb(0, 0, 0);
+}
+
+#linktermoprivacidade {
+    width: 180px;
+    height: 17px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(63, 63, 63, 0.904);
+    position: absolute;
+    left: 460px;
+    top: 250px;
+    transition: all 0.5s;
+}
+
+#linktermoprivacidade:hover {
+    color: rgb(0, 0, 0)
+}
+
+#linknosencontre {
+    width: 160px;
+    height: 17px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(63, 63, 63, 0.904);
+    position: absolute;
+    left: 220px;
+    top: 250px;
+    transition: all 0.5s;
+}
+
+#linknosencontre:hover {
+    color: rgb(0, 0, 0)
+}
+
+#containermenu {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(247, 247, 247);
+    margin: auto;
+    border: none;
+    position: absolute;
+    left: 0px;
+    top: 814px;
+}
+
+#titulomenu {
+    width: 1000px;
+    border-bottom: 2px solid rgb(53, 41, 32);
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 180px;
+    text-align: center;
+}
+
+#coffeelatte {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px 5px;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+    transition: all 0.5s;
+}
+
+#coffeelatte:hover {
+    width: 215px;
+    height: 195px;
+    background-color: rgba(184, 184, 184, 0.281);
+    text-decoration: underline rgb(53, 41, 32);
+}
+
+#linkcoffeelatte {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(53, 41, 32);
+}
+
+#imgcoffeelatte {
+    width: 120px;
+    height: auto;
+}
+
+#coffeeamericano {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px 5px;
+    position: absolute;
+    left: 565px;
+    top: 80px;
+    transition: all 0.5s;
+}
+
+#coffeeamericano:hover {
+    width: 215px;
+    height: 195px;
+    background-color: rgba(184, 184, 184, 0.281);
+    text-decoration: underline rgb(53, 41, 32);
+}
+
+#linkcoffeeamericano {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(53, 41, 32);
+}
+
+#imgcoffeeamericano {
+    width: 120px;
+    height: auto;
+}
+
+#coffeeexpress {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px 5px;
+    position: absolute;
+    left: 1060px;
+    top: 80px;
+    transition: all 0.5s;
+}
+
+#coffeeexpress:hover {
+    width: 215px;
+    height: 195px;
+    background-color: rgba(184, 184, 184, 0.281);
+    text-decoration: underline rgb(53, 41, 32);
+}
+
+#imgcoffeeexpress {
+    width: 125px;
+    height: auto;
+}
+
+#linkcoffeeexpress {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(53, 41, 32);
+}
+
+#coffeecappuccino {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px 5px;
+    position: absolute;
+    left: 50px;
+    top: 340px;
+    transition: all 0.5s;
+}
+
+#coffeecappuccino:hover {
+    width: 215px;
+    height: 195px;
+    background-color: rgba(184, 184, 184, 0.281);
+    text-decoration: underline rgb(53, 41, 32);
+}
+
+#imgcoffeecappuccino {
+    width: 120px;
+    height: auto;
+}
+
+#linkcoffeecappuccino {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(53, 41, 32);
+}
+
+#icecoffee {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px 5px;
+    position: absolute;
+    left: 565px;
+    top: 340px;
+    transition: all 0.5s;
+}
+
+#icecoffee:hover {
+    width: 215px;
+    height: 195px;
+    background-color: rgba(184, 184, 184, 0.281);
+    text-decoration: underline rgb(53, 41, 32);
+}
+
+#imgicecoffee {
+    width: 120px;
+    height: auto;
+}
+
+#linkicecoffee {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(53, 41, 32);
+}
+
+#coffeemocha {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    width: 210px;
+    height: 190px;
+    border-radius: 10px;
+    border: 0px solid black;
+    box-shadow: 0px 0px 10px black;
+    padding: 5px 5px;
+    position: absolute;
+    left: 1060px;
+    top: 340px;
+    transition: all 0.5s;
+}
+
+#coffeemocha:hover {
+    width: 215px;
+    height: 195px;
+    background-color: rgba(184, 184, 184, 0.281);
+    text-decoration: underline rgb(53, 41, 32);
+}
+
+#imgcoffeemocha {
+    width: 120px;
+    height: auto;
+}
+
+#linkcoffemocha {
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(53, 41, 32)
+}

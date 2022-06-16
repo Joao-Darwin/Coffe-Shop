@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://photo-cdn2.icons8.com/G-APwTXIXjkYEtsfOsNVG77Mh62w5Wl14kYMXEJwoTo/rs:fit:1608:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi9kZTE1OTQ0OGI5/NDE0YjAwYWFmMGFh/YzBjNzMwMGM0Mi5q/cGc.jpg);
+    font-family: 'Anton', sans-serif;
+    color: white
+}
+
+#container {
+    background-color: rgba(90, 69, 53, 0.726);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    border: 0px solid black;
+    padding: 1px 1px 1px 1px;
+    box-shadow: 1px 1px 10px black;
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+#titulo {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    left: 70px;
+    top: 20px;
+}
+
+#email {
+    width: 300px;
+    height: 20px;
+    position: relative;
+    top: 65px;
+    left: 60px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    font-weight: 500;
+}
+
+#senha {
+    width: 300px;
+    height: 20px;
+    position: relative;
+    top: 110px;
+    left: 60px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    font-weight: 500;
+}
+
+#botaoenviar {
+    position: relative;
+    top: 220px;
+    left: 160px;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px black;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    color: rba(75, 54, 33);
+    font-weight: 600;
+    transition: all 1s;
+}
+
+#botaoenviar:hover {
+    background: linear-gradient(90deg, rgba(58, 37, 17, 1) 20%, rgba(37, 21, 5, 1) 70%);
+    color: white;
+    font-weight: 650;
+    width: 105px;
+    height: 45px;
+}
+
+#img1 {
+    width: 310px;
+    height: auto;
+    float: right;
+    position: relative;
+    top: -265px;
+    left: -40px;
+    border-radius: 5px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px black;
+}
+
+#cadastrese {
+    width: 225px;
+    height: 30px;
+    border: 0px solid white;
+    position: relative;
+    top: 235px;
+    left: 60px;
+    color: white;
+}
+
+#cadastrese2 {
+    color: white;
+}
